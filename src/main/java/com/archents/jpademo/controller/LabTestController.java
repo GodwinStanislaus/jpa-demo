@@ -27,7 +27,11 @@ public class LabTestController {
         return "hello, welcome to Spring Boot!";
     }
 
-
+    /**
+     *
+     * @param testName
+     * @return
+     */
     @RequestMapping( method = RequestMethod.GET, path="/findByName")
     public LabTest findByName(@RequestHeader (name = "testName") String testName){
         return labTestService.findLabTestByName(testName);
