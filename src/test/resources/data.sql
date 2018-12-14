@@ -6,3 +6,6 @@ values(5,'Glucose Test');
 
 insert into labtest
 values(6,'Water Test');
+
+insert into labtest
+values(7,'Rock Test');
